@@ -2,19 +2,19 @@
 
 // 7 types : String , Number , Boolean, Null, Undefined, Symbol, BigInt
 
-const score = 100
-const scoreValue = 120
+/*const Score = 100
+const ScoreValue = 120
 
 const isLoggedIn = false
 const outsideTemp = null ;
 let userEmail;
 
 
-const id = symbol('1234')
+/*const id = Symbol('1234')
 const anotherId = symbol('1234')
 console.log(id === anotherId);
 
-const bigNumber = 58746873684658n
+const bigNumber = 58746873684658n*/
 
 // Reference (Non Primitive)
 
@@ -31,7 +31,30 @@ const myFunction = function(){
     console.log("hello world");
 } 
 
-console.log(typeof myFunction);
+//console.log(typeof myFunction);
 
 
 //https://ecma-international.org/
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myName = "Mehulsinghchuahan"
+
+let anothername = myName
+
+console.log(anothername);
+
+let userOne = {
+    email: "user2google.com" ,
+    upi: "user@ypl"
+}
+
+let userTwo = {
+    email: "user4google.com",
+    upi: "user@uhf.ypl"
+}
+console.log(userOne.email);
+console.log(userTwo.email);
+
